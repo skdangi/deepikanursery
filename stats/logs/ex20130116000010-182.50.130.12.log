@@ -1,0 +1,2 @@
+178.154.243.93 - - [15/Jan/2013:01:13:01 -0700] "GET deepikanursery.com/robots.txt HTTP/1.1" 200 376 "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)" 1 "-" "/var/chroot/home/content/41/7489041/html/robots.txt" 189359
+178.154.243.93 - - [15/Jan/2013:02:22:30 -0700] "GET deepikanursery.com/index.html HTTP/1.1" 200 2779 "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)" 0 "default-handler" "/var/chroot/home/content/41/7489041/html/index.html" 643038

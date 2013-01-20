@@ -1,0 +1,4 @@
+Sitemap: http://deepikanursery.weebly.com/sitemap.xml
+
+User-agent: *
+Disallow:

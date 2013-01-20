@@ -1,0 +1,2 @@
+157.55.32.81 - - [18/Jan/2013:22:26:30 -0700] "GET deepikanursery.com/index.html HTTP/1.1" 200 2779 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)" 0 "default-handler" "/var/chroot/home/content/41/7489041/html/index.html" 1046667
+157.55.32.81 - - [18/Jan/2013:22:26:36 -0700] "GET deepikanursery.com/about.html HTTP/1.1" 200 2184 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)" 0 "default-handler" "/var/chroot/home/content/41/7489041/html/about.html" 300579

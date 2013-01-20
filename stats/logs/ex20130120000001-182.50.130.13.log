@@ -1,0 +1,2 @@
+180.76.6.29 - - [19/Jan/2013:00:04:44 -0700] "GET deepikanursery.com/index.html HTTP/1.1" 200 2742 "-" "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)" 0 "default-handler" "/var/chroot/home/content/41/7489041/html/index.html" 306898
+77.222.128.220 - - [19/Jan/2013:08:42:24 -0700] "GET www.deepikanursery.com/index.html HTTP/1.1" 200 8521 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)" 0 "default-handler" "/var/chroot/home/content/41/7489041/html/index.html" 435787

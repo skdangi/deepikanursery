@@ -1,0 +1,2 @@
+180.76.5.53 - - [19/Jan/2013:16:13:47 -0700] "GET www.deepikanursery.com/catalogue.html HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)" 0 "default-handler" "/var/chroot/home/content/41/7489041/html/catalogue.html" 131977
+180.76.5.144 - - [19/Jan/2013:23:24:46 -0700] "GET www.deepikanursery.com/index.html HTTP/1.1" 200 2742 "-" "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)" 0 "default-handler" "/var/chroot/home/content/41/7489041/html/index.html" 179844

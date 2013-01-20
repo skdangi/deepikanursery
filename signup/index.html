@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Fidelis Homepage</title>
+<link href="../styles-fidelis.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style type="text/css">
+body { background-image: url(../images/bg_header.png); background-repeat: repeat-x; }
+</style>
+<link href="../styles-forms.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<!--
+  <header><?php include('inc-header-signup.php');?></header>
+  -->
+
+  <div class="container">
+
+  <div class="sidebar1">
+  &nbsp;
+</div>
+  <article class="content">
+
+    <section>
+  
+  
+  
+  <h2>Are you sure?</h2>
+<p>Fidelis college is the most effective way to transition out of the military back to civilian life.  The transition is rarely easy.  It takes a lot of hard work.  But everything worth having does.  If you're ready to get started ... sign in below.</p>
+
+<!--
+<p><a href="signup1b.php"><img src="../images/button-signin-with-linkedin.png" width="130" height="18" alt="Sign In with LinkedIn"></a></p>
+-->
+
+
+<div id="fb-root"></div>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId : '316125305070684', // App ID
+				status : true, // check login status
+				cookie : true, // enable cookies to allow the server to access the session
+				oauth : true, // enable OAuth 2.0
+				xfbml : true
+			// parse XFBML
+			});
+
+			FB.Event.subscribe('auth.login', function(response) {
+				login();
+			});
+			FB.getLoginStatus(function(response) {
+				console.log("already logged in");
+				console.log("login status response "+ response.toSource());
+                    if (response.authResponse) {
+                        //alreadyLogin(response.authResponse.userID);
+                        login();
+                    }
+                });
+		};
+
+		// Load the SDK Asynchronously
+		(function(d) {
+			var js, id = 'facebook-jssdk';
+			if (d.getElementById(id)) {
+				return;
+			}
+			js = d.createElement('script');
+			js.id = id;
+			js.async = true;
+			js.src = "//connect.facebook.net/en_US/all.js";
+			d.getElementsByTagName('head')[0].appendChild(js);
+		}(document));
+
+		function login() {
+			FB.api('/me', function(response) {
+				console.log('You have successfully logged in, ' + response.toSource()
+						+ "!");
+				//username = response.username;				
+				//save the response.username response.name  https://graph.facebook.com/${response.username}/picture and photo url
+				window.location.replace("signup1b.html");
+			});
+		}
+		
+		/* function alreadyLogin(id) {
+			console.log("id "+response.authResponse.userID);
+			FB.api('/me', function(response) {
+				alert('You have successfully logged in, ' + response.toSource()
+						+ "!");
+				//username = response.username;				
+				//save the response.username response.name  https://graph.facebook.com/${response.username}/picture and photo url
+				window.location.replace("signup1b.html");
+			});
+		} */
+	</script>
+
+<div class="fb-login-button">Login with Facebook</div>      
+      
+    </section>
+    
+  <!-- end .content --></article>
+  <div class="sidebar2">
+&nbsp;  
+  
+  </div>
+  <footer>
+<!--    <p>This footer contains the declaration position:relative; to give Internet Explorer 6 hasLayout for the footer and cause it to clear correctly. If you're not required to support IE6, you may remove it.</p>
+    <address>
+      Address Content
+    </address>-->
+  </footer>
+<!-- end .container --></div><br><br><br><br><br><br><br>
+</body>
+</html>

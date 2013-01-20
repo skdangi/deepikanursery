@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv='X-UA-Compatible' content='IE=EmulateIE7' />
+%%METADATA%%
+
+<title>%%TITLE%%</title>
+
+<link rel='stylesheet' href='http://cdn1.weebly.com/weebly/images/common/common.css?8' type='text/css' />
+<link rel='stylesheet' type='text/css' href='/files/main_style.css' title='weebly-theme-css' />
+<link rel='stylesheet' type='text/css' href='http://www.weebly.com/weebly/fonts/Daniel/font.css' />
+<style type='text/css'>
+#weebly_page_content_container div.paragraph, #weebly_page_content_container p, #weebly_page_content_container .product-description, .blog-sidebar div.paragraph, .blog-sidebar p{font-family:georgia !important;}
+#weebly_page_content_container h2, #weebly_page_content_container .product-title, .blog-sidebar h2{font-family:'Daniel' !important;}
+#weebly_site_title{}
+</style>
+<script type='text/javascript'><!--
+var STATIC_BASE = 'http://cdn1.weebly.com/';
+//-->
+</script>
+<script type='text/javascript' src='http://cdn1.weebly.com/libraries/prototype/1.7-custom/prototype.min.js' ></script>
+<script type='text/javascript' src='http://cdn1.weebly.com/libraries/scriptaculous/1.9.0-custom/effects.min.js' ></script>
+<script type='text/javascript' src='http://cdn1.weebly.com/weebly/images/common/weebly.js?1' ></script>
+<script type='text/javascript' src='http://cdn1.weebly.com/weebly/images/common/lightbox202.js?8' ></script>
+%%PAGE_HIERARCHY%%
+</head>
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="header">
+        <div id="sitename">%%TITLE%%</div>
+      </div>
+      <div id="content-wrapper">
+        <div id="content">
+          <div id="header-image">
+             <div class="weebly_header"></div>
+          </div>
+          <div id="navigation">
+             <div id="nav-left"></div>
+            <div id="nav-content">
+               
+<ul>
+  %%MENUITEMACTIVESTART%%<li id="active"><a href="%%MENUITEMACTIVELINK%%">%%MENUITEMACTIVETITLE%%</a></li>%%MENUITEMACTIVEEND%%
+  %%MENUITEMSTART%%<li><a href="%%MENUITEMLINK%%">%%MENUITEMTITLE%%</a></li>%%MENUITEMEND%%
+</ul>
+            </div>
+            <div id="nav-right"></div>
+          </div>
+          <div id="nav-bottom"></div>
+          <div id="content-main">
+             %%CONTENT%%
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div id="footer-content"></div>
+    <div id="footer-contents">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="free web site">Weebly</a>%%WEEBLYATTRIBUTION%%</div>
+  </div>
+</body>
+</html>
+
+
+
